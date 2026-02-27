@@ -14,22 +14,10 @@ interface DataType {
 
 const hero_slider: DataType[] = [
   {
-    img: `/assets/img/hero_img_1.jpg`,
-    sub_title: "Creative Agency",
-    title: "Expert Digital Services for Your Own Business",
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`
-  },
-  {
-    img: `/assets/img/hero_img_1.jpg`,
-    sub_title: "Creative Agency",
-    title: "Expert Digital Services for Your Own Business",
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`
-  },
-  {
-    img: `/assets/img/hero_img_1.jpg`,
-    sub_title: "Creative Agency",
-    title: "Expert Digital Services for Your Own Business",
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`
+    img: `/assets/img/hero.jpg`,
+    sub_title: "Clean Solutions Start Here",
+    title: "Punya bisnis kurang berkembang? Kami siap membantu!",
+    des: `Selamat datang di inticode.store! Kami menyediakan solusi IT inovatif untuk membantu bisnis Anda berkembang di era digital. Mulai dari pembuatan software, website & aplikasi, konsultasi IT, hingga transformasi digital, tim ahli kami siap mendukung perjalanan bisnis Anda. Mari wujudkan potensi bisnis Anda bersama kami!`
   },
 ]
 

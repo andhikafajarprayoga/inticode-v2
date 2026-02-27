@@ -7,8 +7,8 @@ import React, { useEffect, useState } from "react";
 
 
 import Image from "next/image";
-import logo from "@/assets/img/logo.svg";
-import Logo_white from "@/assets/img/Logo_white.png";
+import logo from "@/assets/img/Logo_Inti.png";
+import Logo_white from "@/assets/img/Logo_Inti_Black.png";
 
 interface DataType {
 	id: number;
@@ -28,7 +28,7 @@ const menu_data: DataType[] = [
 		id: 1,
 		title: "Home",
 		link: "/",
-		has_dropdown: true,
+		has_dropdown: false,
 		sub_menu: [
 			{
 				id: 1,
@@ -65,9 +65,9 @@ const menu_data: DataType[] = [
 	},
 	{
 		id: 3,
-		title: "Pages",
-		link: "/about",
-		has_dropdown: true,
+		title: "Team",
+		link: "/team",
+		has_dropdown: false,
 		sub_menu: [
 			{
 				id: 1,
@@ -105,7 +105,7 @@ const menu_data: DataType[] = [
 		id: 4,
 		title: "Services",
 		link: "/service",
-		has_dropdown: true,
+		has_dropdown: false,
 		sub_menu: [
 			{
 				id: 1,
@@ -123,7 +123,7 @@ const menu_data: DataType[] = [
 		id: 5,
 		title: "Portfolio",
 		link: "/portfolio",
-		has_dropdown: true,
+		has_dropdown: false,
 		sub_menu: [
 			{
 				id: 1,
@@ -141,7 +141,7 @@ const menu_data: DataType[] = [
 		id: 6,
 		title: "Blog",
 		link: "/blog",
-		has_dropdown: true,
+		has_dropdown: false,
 		sub_menu: [
 			{
 				id: 1,

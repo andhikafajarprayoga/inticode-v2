@@ -23,7 +23,7 @@ const menu_data: DataType[] = [
     id: 1,
     title: "Home",
     link: "/",
-    has_dropdown: true,
+    has_dropdown: false,
     sub_menu: [
       {
         id: 1,
@@ -60,9 +60,9 @@ const menu_data: DataType[] = [
   },
   {
     id: 3,
-    title: "Pages",
-    link: "/about",
-    has_dropdown: true,
+    title: "Team",
+    link: "/team",
+    has_dropdown: false,
     sub_menu: [
       {
         id: 1,
@@ -100,7 +100,7 @@ const menu_data: DataType[] = [
     id: 4,
     title: "Services",
     link: "/service",
-    has_dropdown: true,
+    has_dropdown: false,
     sub_menu: [
       {
         id: 1,
@@ -118,7 +118,7 @@ const menu_data: DataType[] = [
     id: 5,
     title: "Portfolio",
     link: "/portfolio",
-    has_dropdown: true,
+    has_dropdown: false,
     sub_menu: [
       {
         id: 1,
@@ -136,7 +136,7 @@ const menu_data: DataType[] = [
     id: 6,
     title: "Blog",
     link: "/blog",
-    has_dropdown: true,
+    has_dropdown: false,
     sub_menu: [
       {
         id: 1,
