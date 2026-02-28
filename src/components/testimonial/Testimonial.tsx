@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 
 import avatar_img from "@/assets/img/avatar_1.jpg";
-import testimonial_thumb from "@/assets/img/testimonial_thumb_1.jpg";
+import testimonial_thumb from "@/assets/img/testimonial_thumb_2.jpg";
 import Image, { StaticImageData } from 'next/image';
 
 
@@ -17,21 +17,21 @@ interface DataType {
 const testimonial_data: DataType[] = [
   {
     img: avatar_img,
-    name: `Delores Olivo`,
-    location: `From UK`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    name: `Aji Pratama`,
+    location: `Jakarta, Indonesia`,
+    des: `“inticode.store sangat membantu digitalisasi bisnis kami. Proses pengembangan aplikasi berjalan lancar dan hasilnya memuaskan!”`,
   },
   {
     img: avatar_img,
-    name: `Delores Olivo`,
-    location: `From USA`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    name: `Lestari`,
+    location: `Bandung, Indonesia`,
+    des: `“Tim inticode.store responsif dan profesional. Website company profile kami kini tampil modern dan mudah diakses.”`,
   },
   {
     img: avatar_img,
-    name: `Delores Olivo`,
-    location: `From Astrolia`,
-    des: `“Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency”`,
+    name: `Kurniawan`,
+    location: `Bandung, Indonesia`,
+    des: `“Layanan upload aplikasi ke Play Store dari inticode.store sangat membantu. Support-nya juga cepat dan ramah.”`,
   },
 ]
 
@@ -77,7 +77,7 @@ const Testimonial = ({ style_service }: any) => {
             <div className="col-lg-7 offset-lg-1">
               <div className={`cs_testimonial ${style_service ? 'cs_style_2' : 'cs_style_1 cs_color_1'}`}>
                 <h2 className="cs_testimonial_title">
-                  Some Of Our Respected Happy Clients Says
+                  Apa Kata Klien Kami
                 </h2>
                 <Swiper
                   loop={true}
@@ -107,9 +107,7 @@ const Testimonial = ({ style_service }: any) => {
                           {item.des}
                         </blockquote>
                         <div className="cs_testimonial_meta">
-                          <div className="cs_testimonial_avatar">
-                            <Image src={item.img} alt="Avatar" />
-                          </div>
+                          
                           <div className="cs_testimonial_meta_right">
                             <h3 className="cs_testimonial_avatar_name">
                               {item.name}

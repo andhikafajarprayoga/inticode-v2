@@ -13,10 +13,10 @@ const ContactArea = () => {
             <div className="cs_contact">
               <div className="cs_contact_text">
                 <p className="cs_contact_subtitle anim_text_upanddowns">
-                  Contact Us
+                  Hubungi Kami
                 </p>
                 <h1 className="cs_contact_title anim_text_writting">
-                  Get in Touch
+                  Konsultasi & Solusi IT 
                 </h1>
               </div>
               <div className="cs_height_80 cs_height_lg_20"></div>
@@ -24,38 +24,38 @@ const ContactArea = () => {
                 <form onClick={e => e.preventDefault()}>
                   <div className="row">
                     <div className="cs_field_group col">
-                      <input className="cs_input_field" type="text" id="test1" placeholder="Name"
-                        name="test" />
-                      <label htmlFor="test1" className="cs_input_label">Name</label>
+                      <input className="cs_input_field" type="text" id="name" placeholder="Nama"
+                        name="name" />
+                      <label htmlFor="name" className="cs_input_label">Nama</label>
                     </div>
                     <div className="cs_field_group col">
-                      <input className="cs_input_field" type="text" id="test2" placeholder="Name"
-                        name="test" />
-                      <label htmlFor="test2" className="cs_input_label">Email</label>
+                      <input className="cs_input_field" type="email" id="email" placeholder="Email"
+                        name="email" />
+                      <label htmlFor="email" className="cs_input_label">Email</label>
                     </div>
                   </div>
                   <div className="cs_height_10 cs_height_lg_20"></div>
                   <div className="row">
                     <div className="cs_field_group col">
-                      <input className="cs_input_field" type="text" id="test3" placeholder="Name"
-                        name="test" />
-                      <label htmlFor="test3" className="cs_input_label">Phone</label>
+                      <input className="cs_input_field" type="text" id="phone" placeholder="No. Telepon"
+                        name="phone" />
+                      <label htmlFor="phone" className="cs_input_label">No. Telepon</label>
                     </div>
                     <div className="cs_field_group col">
-                      <input className="cs_input_field" type="text" id="test4" placeholder="Name"
-                        name="test" />
-                      <label htmlFor="test4" className="cs_input_label">Subject</label>
+                      <input className="cs_input_field" type="text" id="subject" placeholder="Subjek"
+                        name="subject" />
+                      <label htmlFor="subject" className="cs_input_label">Subjek</label>
                     </div>
                   </div>
                   <div className="cs_height_100 cs_height_lg_60"></div>
                   <div className="cs_field_group">
-                    <input className="cs_input_field" type="text" id="test5" placeholder="Message"
-                      name="test" />
-                    <label htmlFor="test5" className="cs_input_label">Message</label>
+                    <input className="cs_input_field" type="text" id="message" placeholder="Pesan"
+                      name="message" />
+                    <label htmlFor="message" className="cs_input_label">Pesan</label>
                   </div>
                   <div className="cs_height_60 cs_height_lg_60"></div>
                   <button type="submit" className="cs_btn cs_style_1 cs_type_btn">
-                    <span>Send Now</span>
+                    <span>Kirim Pesan</span>
                     <svg width="19" height="13" viewBox="0 0 19 13" fill="none"
                       xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -69,14 +69,14 @@ const ContactArea = () => {
             <div className="cs_contact_section_2 anim_div_ShowRightSide">
               <div className="cs_google_map cs_bg" data-src="assets/img/map_img.png">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd"
-                  allowFullScreen={true}></iframe>
+                  src="https://www.google.com/maps?q=Jl.+Riau+No.11,+RT.9/RW.5,+Gondangdia,+Kec.+Menteng,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10350&output=embed"
+                  allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
               <div className="cs_height_50 cs_height_lg_50"></div>
               <div className="row">
                 <div className="col-md-4">
                   <div className="cs_icon">
-                    <a href="https://www.google.com/maps" className="cs_icon_style">
+                    <a href="https://www.google.com/maps/place/Jl.+Riau+No.11,+RT.9%2FRW.5,+Gondangdia,+Kec.+Menteng,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10350/@-6.1920855,106.8281796,17.07z/data=!4m6!3m5!1s0x2e69f42408617e19:0x9e3fc10b69a88c11!8m2!3d-6.1915883!4d106.824543!16s%2Fg%2F11w7q17rcb?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="cs_icon_style">
                       <i>
                         <svg width="14" height="19" viewBox="0 0 14 19" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
@@ -88,13 +88,13 @@ const ContactArea = () => {
                     </a>
                     <div className="cs_icon_text">
                       <h6 className="cs_icon_title">Address</h6>
-                      <p className="cs_icon_subtitle">El-Mahalla El-Kubra 37</p>
+                      <p className="cs_icon_subtitle">Jl. Riau No.11, RT.9/RW.5, Gondangdia, Menteng, Jakarta Pusat</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="cs_icon">
-                    <a href="tel:(406) 555-0120" className="cs_icon_style">
+                    <a href="tel:+6281234567890" className="cs_icon_style">
                       <i>
                         <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
@@ -112,13 +112,13 @@ const ContactArea = () => {
                     </a>
                     <div className="cs_icon_text">
                       <h6 className="cs_icon_title">Phone</h6>
-                      <p className="cs_icon_subtitle">(406) 555-0120</p>
+                      <p className="cs_icon_subtitle">+62 812-3456-7890</p>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4">
                   <div className="cs_icon">
-                    <a href="mailto:vixan@email.com" className="cs_icon_style">
+                    <a href="mailto:info@inticode.store" className="cs_icon_style">
                       <i>
                         <svg width="18" height="14" viewBox="0 0 18 14" fill="none"
                           xmlns="http://www.w3.org/2000/svg">
@@ -133,7 +133,7 @@ const ContactArea = () => {
                     </a>
                     <div className="cs_icon_text">
                       <h6 className="cs_icon_title">Email</h6>
-                      <p className="cs_icon_subtitle">vixan@email.com</p>
+                      <p className="cs_icon_subtitle">info@inticode.store</p>
                     </div>
                   </div>
                 </div>

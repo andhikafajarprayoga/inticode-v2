@@ -12,25 +12,24 @@ interface DataType {
 const service_data: DataType[] = [
   {
     id: 1,
-    title: `Application Development`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`
+    title: `Pengembangan Aplikasi Bisnis`,
+    des: `Solusi pembuatan aplikasi custom sesuai kebutuhan bisnis Anda, mulai dari aplikasi mobile, desktop, hingga sistem enterprise yang terintegrasi.`
   },
   {
     id: 2,
-    title: `Web Development`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`
+    title: `Pembuatan Website Profesional`,
+    des: `Jasa pembuatan website company profile, toko online, portal bisnis, dan landing page yang modern, responsif, dan mudah dikelola.`
   },
   {
     id: 3,
-    title: `Digital Services`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`
+    title: `IT Consulting & Integrasi Sistem`,
+    des: `Konsultasi IT untuk transformasi digital, integrasi sistem, audit infrastruktur, serta solusi cloud dan keamanan data bisnis Anda.`
   },
   {
     id: 4,
-    title: `Digital Product Design`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development to digital marketing agency.`
+    title: `Support & Maintenance IT`,
+    des: `Layanan dukungan teknis, pemeliharaan sistem, troubleshooting, dan pelatihan untuk memastikan operasional IT bisnis Anda berjalan lancar.`
   },
-
 ]
 
 const ServiceHomeOne = () => {
@@ -43,10 +42,10 @@ const ServiceHomeOne = () => {
           <div className="cs_section_heading cs_style_1 cs_type_1 cs_color_1">
             <div className="cs_section_heading_text">
               <div className="cs_section_subtitle anim_div_ShowZoom">
-                Our Services
+                Layanan Kami
               </div>
               <h2 className="cs_section_title anim_heading_title">
-                Comprehensive Digital Strategy Transformation
+                Solusi IT Terintegrasi untuk Bisnis 
               </h2>
             </div>
             <div className="cs_section_heading_right cs_btn_anim">

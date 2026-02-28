@@ -15,9 +15,9 @@ interface DataType {
 const hero_slider: DataType[] = [
   {
     img: `/assets/img/hero.jpg`,
-    sub_title: "Clean Solutions Start Here",
-    title: "Punya bisnis kurang berkembang? Kami siap membantu!",
-    des: `Selamat datang di inticode.store! Kami menyediakan solusi IT inovatif untuk membantu bisnis Anda berkembang di era digital. Mulai dari pembuatan software, website & aplikasi, konsultasi IT, hingga transformasi digital, tim ahli kami siap mendukung perjalanan bisnis Anda. Mari wujudkan potensi bisnis Anda bersama kami!`
+    sub_title: "Transformasi Digital Dimulai Di Sini",
+    title: "Tingkatkan Bisnis Anda dengan Solusi IT Terdepan",
+    des: `Raih kesuksesan digital bersama inticode.store! Kami hadir dengan solusi IT komprehensif yang telah terbukti meningkatkan produktivitas dan revenue bisnis Anda. Dari software custom, website responsif, aplikasi mobile, hingga konsultasi strategis – tim expert kami siap mentransformasi visi Anda menjadi kenyataan. Jangan biarkan kompetitor unggul, mulai upgrade bisnis Anda sekarang dan lihat perbedaannya!`
   },
 ]
 

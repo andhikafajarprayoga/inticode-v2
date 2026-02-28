@@ -1,12 +1,12 @@
 'use client'
 import React, { useState } from 'react';
 import award_img_1 from "@/assets/img/award_1.svg";
-import award_img_2 from "@/assets/img/award_2.svg";
-import award_img_3 from "@/assets/img/award_3.svg";
+import award_img_2 from "@/assets/img/award_1.svg";
+import award_img_3 from "@/assets/img/award_1.svg";
 
 import award_thumb_1 from "@/assets/img/award_thumb_1.jpg";
-import award_thumb_2 from "@/assets/img/award_thumb_2.jpg";
-import award_thumb_3 from "@/assets/img/award_thumb_3.jpg";
+import award_thumb_2 from "@/assets/img/award_thumb_2.png";
+import award_thumb_3 from "@/assets/img/award_thumb_3.png";
 import Image, { StaticImageData } from 'next/image';
 
 
@@ -24,25 +24,25 @@ const award_data: DataType[] = [
     id: 1,
     ward_img: award_img_1,
     img: award_thumb_1,
-    brand: `Dribbbble`,
-    title: `IOS App Design Award`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design.`,
+    brand: `Proyek Sukses`,
+    title: `100+ Proyek IT Berhasil`,
+    des: `inticode.store telah menyelesaikan lebih dari 100 proyek IT untuk berbagai sektor bisnis, mulai dari UMKM hingga perusahaan besar.`,
   },
   {
     id: 2,
     ward_img: award_img_2,
     img: award_thumb_2,
-    brand: `Envato`,
-    title: `Elite Author Award`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design.`,
+    brand: `Kepuasan Klien`,
+    title: `95% Klien Puas`,
+    des: `Kepuasan klien adalah prioritas kami. 95% klien memberikan testimoni positif atas layanan dan solusi yang kami berikan.`,
   },
   {
     id: 3,
     ward_img: award_img_3,
     img: award_thumb_3,
-    brand: `Awwward`,
-    title: `CSS Design Award`,
-    des: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design.`,
+    brand: `Inovasi`,
+    title: `Solusi Digital Inovatif`,
+    des: `Kami selalu menghadirkan inovasi dalam setiap solusi IT, membantu bisnis klien beradaptasi di era digital.`,
   },
 ]
 
@@ -61,10 +61,10 @@ const AwardsHomeOne = ({style_2}: any) => {
           <div className="cs_section_heading cs_style_1 cs_type_1 swiper-slide swiper-slide-active">
             <div className="cs_section_heading_text">
               <div className="cs_section_subtitle anim_div_ShowZoom">
-                Our Awards
+                Pencapaian Kami
               </div>
               <h2 className="cs_section_title anim_heading_title">
-                Recognizing Excellence Our Award Winning Work
+                Bukti Kepercayaan & Kinerja inticode.store
               </h2>
             </div>
           </div>

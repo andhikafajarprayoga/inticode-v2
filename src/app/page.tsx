@@ -39,11 +39,8 @@ const index = () => {
             <PortfolioHomeOne />
             <AwardsHomeOne />
             <Testimonial />
-            <FunFactHomeOne />
-            <VideoHomeOne />
-            <BlogHomeOne />
+            <FunFactHomeOne />   
             <SubscribeHomeOne />
-            <BrandHomeOne style_2={false} />
           </main>
           <FooterOne />
         </div>

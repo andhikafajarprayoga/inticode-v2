@@ -12,22 +12,22 @@ interface DataType {
 
 const about_slider: DataType[] = [
   {
-    img: "/assets/img/about_img.jpg",
-    sub_title: "Our Mission",
-    title: `Unleashing Creativity to Transform Your Business`,
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`,
+    img: "/assets/img/about_teamwork.jpg", // Contoh: cari di Google 'tim kerja IT', 'IT teamwork', 'collaboration technology'
+    sub_title: "Misi Kami",
+    title: `Membantu Bisnis Tumbuh Lewat Solusi Digital`,
+    des: `inticode.store hadir untuk memberikan solusi IT yang inovatif dan terpercaya. Kami percaya teknologi dapat mendorong pertumbuhan bisnis Anda ke level berikutnya. Fokus kami adalah memberikan layanan terbaik mulai dari pengembangan software, website, aplikasi, hingga konsultasi IT.`,
   },
   {
-    img: "/assets/img/about_img.jpg",
-    sub_title: "Our Mission",
-    title: `Unleashing Creativity to Transform Your Business`,
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`,
+    img: "/assets/img/about_innovation.jpg", // Contoh: cari di Google 'inovasi teknologi', 'innovation technology', 'digital innovation'
+    sub_title: "Inovasi Tanpa Batas",
+    title: `Teknologi Terkini untuk Masa Depan Bisnis Anda`,
+    des: `Kami selalu mengikuti perkembangan teknologi terbaru untuk memastikan solusi yang kami berikan relevan dan efektif. Setiap proyek kami kerjakan dengan semangat inovasi dan komitmen pada kualitas.`,
   },
   {
-    img: "/assets/img/about_img.jpg",
-    sub_title: "Our Mission",
-    title: `Unleashing Creativity to Transform Your Business`,
-    des: `Welcome to our digital agency! We specialize in helping businesses like yours succeed online. From website design and development to digital marketing and advertising, we have the tools and expertise to elevate your online presence. Let us help you lione evolving world of digital.`,
+    img: "/assets/img/about_support.jpg", // Contoh: cari di Google 'dukungan IT', 'IT support', 'customer support technology'
+    sub_title: "Dukungan Penuh",
+    title: `Mitra Digital yang Siap Membantu Anda`,
+    des: `Tim kami siap mendampingi Anda mulai dari konsultasi, implementasi, hingga maintenance. inticode.store berkomitmen menjadi mitra digital yang dapat diandalkan untuk setiap kebutuhan IT bisnis Anda.`,
   },
 ]
 

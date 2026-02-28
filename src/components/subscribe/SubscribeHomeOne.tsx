@@ -8,7 +8,7 @@ const SubscribeHomeOne = () => {
   }
   return (
     <>
-      <div className="container">
+      <div className="container" style={{ marginBottom: '100px' }}>
         <div className="cs_newsletter cs_style_1 cs_primary_bg cs_shape_wrap_1 cs_parallax">
           <div className="cs_shape_1">
             <svg width="149" height="150" viewBox="0 0 149 150" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,13 +37,13 @@ const SubscribeHomeOne = () => {
           <div className="cs_section_heading cs_style_1 cs_color_1 text-center">
             <div className="cs_section_heading_text">
               <h2 className="cs_section_title anim_text_upanddowns">
-                Stay Ahead With Our Top Notch <br />Digital Services
+                Dapatkan Update & Tips IT Bisnis Terbaru dari inticode.store
               </h2>
             </div>
           </div>
           <div className="cs_height_70 cs_height_lg_40"></div>
           <form className="cs_newsletter_form" onSubmit={handleSuubmit}>
-            <input type="text" className="cs_newsletter_input" placeholder="Enter Your Email" />
+            <input type="text" className="cs_newsletter_input" placeholder="Masukkan Email Anda" />
             <button className="cs_newsletter_btn">
               <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path

@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import footer_logo from "@/assets/img/footer_logo.svg";
+import footer_logo from "@/assets/img/Logo_Inti_Black.png";
 import { CopyRight, SocialLinks } from '@/components/common/SocialLinks';
 
 interface DataType {
@@ -17,17 +17,16 @@ interface DataType {
 }
 
 const footer_data: DataType = {
-  email: `info@email.com`,
-  phone: `(406) 555-0120`,
-  location: `46 JOHN ST TORONTO ON M5V 3W2`,
-  footer_info: `Welcome to our digital agency We specialize in helping business most like yours succeed online. From website design and development.`,
+  email: `info@inticode.store`,
+  phone: `+62 85963160777`,
+  location: `Kota Bandung, Indonesia`,
+  footer_info: `inticode.store adalah partner solusi IT untuk bisnis Anda di Jakarta dan seluruh Indonesia. Kami siap membantu digitalisasi, pengembangan aplikasi, website, dan layanan teknologi lainnya untuk kemajuan bisnis Anda. Temukan lokasi kami di pusat kota Jakarta!`,
   links: [
-    { title: `HOME`, link: "/" },
-    { title: `ABOUT`, link: "/about" },
-    { title: `SERVICES`, link: "/service" },
-    { title: `PORTFOLIO`, link: "/portfolio" },
-    { title: `BLOG`, link: "/blog" },
-    { title: `CONTACT US`, link: "/contact" },
+    { title: `BERANDA`, link: "/" },
+    { title: `TENTANG`, link: "/about" },
+    { title: `LAYANAN`, link: "/service" },
+    { title: `PORTOFOLIO`, link: "/portfolio" },
+    { title: `KONTAK`, link: "/contact" },
   ]
 }
 const { footer_info, email, links, location, phone } = footer_data
@@ -62,7 +61,7 @@ const FooterOne = () => {
                         fill="white" />
                     </svg>
                   </i>
-                  {location}
+                  <a href="https://www.google.com/maps/place/Jl.+Riau+No.11,+RT.9%2FRW.5,+Gondangdia,+Kec.+Menteng,+Kota+Jakarta+Pusat,+Daerah+Khusus+Ibukota+Jakarta+10350/@-6.1920855,106.8281796,17.07z/data=!4m6!3m5!1s0x2e69f42408617e19:0x9e3fc10b69a88c11!8m2!3d-6.1915883!4d106.824543!16s%2Fg%2F11w7q17rcb?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">{location}</a>
                 </li>
                 <li>
                   <i>
