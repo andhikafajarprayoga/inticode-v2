@@ -1,20 +1,21 @@
-'use client'
-import React from 'react';
-import Link from 'next/link';
-import Image, { StaticImageData } from 'next/image';
+"use client";
+import React from "react";
+import Link from "next/link";
+import Image, { StaticImageData } from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import portfolio_img_1 from '@/assets/img/1.png';
-import portfolio_img_2 from '@/assets/img/2.png';
-import portfolio_img_3 from '@/assets/img/3.png';
-import portfolio_img_4 from '@/assets/img/4.png';
+import portfolio_img_1 from "@/assets/img/1.png";
+import portfolio_img_2 from "@/assets/img/2.png";
+import portfolio_img_3 from "@/assets/img/3.png";
+import portfolio_img_4 from "@/assets/img/4.png";
 
 interface DataType {
   img: StaticImageData;
   title: string;
   category: string;
-}[]
+}
+[];
 
 const portfolio_slider: DataType[] = [
   {
@@ -37,8 +38,7 @@ const portfolio_slider: DataType[] = [
     title: `Jasa Upload Aplikasi ke Play Store`,
     category: `App Publishing / Play Store`,
   },
-]
-
+];
 
 const PortfolioHomeOne = () => {
   return (
@@ -61,33 +61,31 @@ const PortfolioHomeOne = () => {
         <Swiper
           loop={true}
           speed={1000}
-          slidesPerView="auto" 
+          slidesPerView="auto"
           pagination={{
             el: ".cs_pagination",
             clickable: true,
           }}
-          className="cs_horizontal_scrolls anim_div_ShowDowns">
-          {portfolio_slider.map((item, i) =>
+          className="cs_horizontal_scrolls anim_div_ShowDowns"
+        >
+          {portfolio_slider.map((item, i) => (
             <SwiperSlide key={i} className="swiper-slide">
               <div className="cs_horizontal_scroll">
-                <Link href="/portfolio-details" className="cs_portfolio cs_style_1">
+                {/* <Link href="/portfolio-details" className="cs_portfolio cs_style_1"> */}
+                <div className="cs_portfolio cs_style_1">
                   <div className="cs_portfolio_img">
                     <Image src={item.img} alt="Thumb" />
                   </div>
                   <div className="cs_portfolio_overlay"></div>
                   <div className="cs_portfolio_info">
-                    <h2 className="cs_portfolio_title">
-                      {item.title}
-                    </h2>
-                    <div className="cs_portfolio_subtitle">
-                      {item.category}
-                    </div>
+                    <h2 className="cs_portfolio_title">{item.title}</h2>
+                    <div className="cs_portfolio_subtitle">{item.category}</div>
                   </div>
-                </Link>
+                </div>
+                {/* </Link> */}
               </div>
             </SwiperSlide>
-          )} 
-
+          ))}
         </Swiper>
       </div>
       <div className="cs_height_145 cs_height_lg_60"></div>

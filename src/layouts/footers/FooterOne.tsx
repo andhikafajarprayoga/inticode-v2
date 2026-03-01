@@ -17,7 +17,7 @@ interface DataType {
 }
 
 const footer_data: DataType = {
-  email: `info@inticode.store`,
+  email: `adm@inticode.store`,
   phone: `+62 85963160777`,
   location: `Kota Bandung, Indonesia`,
   footer_info: `inticode.store adalah partner solusi IT untuk bisnis Anda di Jakarta dan seluruh Indonesia. Kami siap membantu digitalisasi, pengembangan aplikasi, website, dan layanan teknologi lainnya untuk kemajuan bisnis Anda. Temukan lokasi kami di pusat kota Jakarta!`,
@@ -25,7 +25,7 @@ const footer_data: DataType = {
     { title: `BERANDA`, link: "/" },
     { title: `TENTANG`, link: "/about" },
     { title: `LAYANAN`, link: "/service" },
-    { title: `PORTOFOLIO`, link: "/portfolio" },
+    // { title: `PORTOFOLIO`, link: "/portfolio" },
     { title: `KONTAK`, link: "/contact" },
   ]
 }

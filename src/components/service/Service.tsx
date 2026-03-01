@@ -1,6 +1,4 @@
-
-import React from 'react';
-
+import React from "react";
 
 interface DataType {
   id: string;
@@ -9,26 +7,26 @@ interface DataType {
 }
 const service_data: DataType[] = [
   {
-    id: 'one',
-    title: "Understand",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    id: "One",
+    title: "Konsultasi",
+    description: `Diskusikan kebutuhan IT bisnis Anda bersama tim Inticode.store untuk solusi yang tepat dan efisien.`,
   },
   {
-    id: 'Two',
-    title: "Design",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    id: "Two",
+    title: "Perancangan",
+    description: `Kami merancang sistem, aplikasi, atau website sesuai kebutuhan dan tujuan bisnis Anda.`,
   },
   {
-    id: 'Three',
-    title: "Development",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    id: "Three",
+    title: "Pengembangan",
+    description: `Tim kami membangun solusi digital dengan teknologi terbaru, aman, dan scalable.`,
   },
   {
-    id: 'Four',
-    title: "Testing",
-    description: `Welcome to our digital agency We specialize in helping your business most`,
+    id: "Four",
+    title: "Implementasi & Support",
+    description: `Solusi siap digunakan, didukung dengan layanan support dan maintenance profesional.`,
   },
-]
+];
 const Service = () => {
   return (
     <>
@@ -54,7 +52,11 @@ const Service = () => {
               <div className="cs_work cs_work_1">
                 <div className="cs_card_work cs_style_1 cs_color_1">
                   {service_data.map((item, i) => (
-                    <div key={i} className="cs_card">
+                    <div
+                      key={i}
+                      className="cs_card"
+                      style={{ pointerEvents: "none" }}
+                    >
                       <div className="cs_card cs_style_1">
                         <div className="cs_posagation">
                           <div className="cs_work_style_1"></div>
@@ -64,15 +66,10 @@ const Service = () => {
                           <span>{item.id}</span>
                         </div>
                       </div>
-
                       <h6 className="cs_work_title">{item.title}</h6>
-                      <p className="cs_work_subtitle">
-                        {item.description}
-                      </p>
+                      <p className="cs_work_subtitle">{item.description}</p>
                     </div>
-
                   ))}
-
                 </div>
               </div>
             </div>
