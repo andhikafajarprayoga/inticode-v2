@@ -39,13 +39,25 @@ const Wrapper = ({ children }: any) => {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      ScrollSmoother.create({
-        smooth: 1.35,
-        effects: true,
-        smoothTouch: false,
-        normalizeScroll: false,
-        ignoreMobileResize: true,
-      });
+      // Hanya aktifkan ScrollSmoother di desktop
+      if (window.innerWidth > 1024) {
+        ScrollSmoother.create({
+          smooth: 1.35,
+          effects: true,
+          smoothTouch: false,
+          normalizeScroll: false,
+          ignoreMobileResize: true,
+        });
+      } else {
+        // Untuk mobile, biarkan scroll native
+        ScrollSmoother.create({
+          smooth: 1,
+          effects: false,
+          smoothTouch: true,
+          normalizeScroll: false,
+          ignoreMobileResize: true,
+        });
+      }
     }
   }, [pathname]);
 
@@ -53,7 +65,6 @@ const Wrapper = ({ children }: any) => {
     buttonAnimation();
     animationTitle();
     scrollSmother();
-
   }, [pathname]);
 
   return (
@@ -67,4 +78,4 @@ const Wrapper = ({ children }: any) => {
   );
 };
 
-export default Wrapper; 
+export default Wrapper;
